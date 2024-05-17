@@ -6,6 +6,7 @@ function MovieItem({ movie }) {
   const handleFavorite = () => {
     setIsFavorite(!isFavorite);
     // Simpan state favorit ke local storage atau state global
+    
   };
 
   return (

@@ -12,7 +12,7 @@ export const fetchMovies = async () => {
         page: 1,
       },
     });
-    return response.data;
+    return response.data.results;
   } catch (error) {
     console.error('Error fetching data from TMDb API:', error);
     throw error;
